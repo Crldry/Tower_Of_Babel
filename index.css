@@ -1,0 +1,160 @@
+
+    
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-y: hidden;
+        
+    } 
+
+
+h1,h5 {
+    margin-left: 0;
+    margin-right: 0;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+
+h1{
+    font-size: 10rem;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding-top: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+  }
+  
+
+
+.button-19 {
+  appearance: button !important;
+  background-color: #B3A492;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s !important;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #B3A492;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.FrontPagePic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    height: 20%;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 10px; 
+    }
+    h5 {
+        font-size: 6px;
+    }
+
+    .FrontPagePic img {
+        width: 60%; 
+    }
+}
+
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 10px; 
+    }
+    h5 {
+        font-size: 6px;
+    }
+
+    .FrontPagePic img {
+        width: 90%; 
+    }
+    .website {
+        padding-bottom: 0;
+    }
+}
+
+
+@media (min-width: 321px) and (max-width: 768px) {
+    h1, h5 {
+        font-size: 20px;
+    }
+    .FrontPagePic img {
+        width: 75%; 
+    }
+}

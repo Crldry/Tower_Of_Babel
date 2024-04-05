@@ -1,0 +1,204 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+.header1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center; /* Center the text horizontally */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+#website{
+    width: 100%;
+    background-color: contain #FFF2E1;
+}
+
+
+  .Fstanza, .secstanza, .thirdstanza, .fourthstanza, .fifthstanza{
+  
+        width: 80%; /* Set the desired width */
+        height: 150px; /* Set the desired height */
+        padding: 10px; /* Add padding to create space inside the div */
+        margin: 0 auto; /* Center the div horizontally */
+        padding-bottom: 350px;
+        padding-top: 50px;
+        font-size:16px;
+        font-style: italic;
+        
+      }
+      .ending{
+        padding-bottom: 30px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+       }
+      .img1, .img2, .img3, .img4, .img5 {
+        width: 100%; /* Set the desired width */
+        height: auto;
+        margin: 0 auto; /* Center the div horizontally */
+      }
+      .paragraph1, .paragraph2, .paragraph3, .paragraph4, .paragraph5 {
+        border: 1px solid black; /* Example border style */
+        padding: 10px; /* Add padding inside the border */
+      }
+      
+
+
+      
+.button-19 {
+    appearance: button !important;
+    background-color: #B3A492;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s !important;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+    
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #B3A492;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19:main,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  
+  .button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+  }
+
+  @media (min-width: 768px){
+    .header1{
+        display: none;
+    }
+    .img1, .img2, .img3, .img4, .img5 {
+        width: 100%; /* Set the desired width */
+        height: auto;
+        margin: 0 auto; /* Center the div horizontally */
+        padding-left: 150px;
+      }
+      .Fstanza, .secstanza, .thirdstanza, .fourthstanza, .fifthstanza{
+  
+        width: 80%; /* Set the desired width */
+        height: 150px; /* Set the desired height */
+        padding: 10px; /* Add padding to create space inside the div */
+        margin: 0 auto; /* Center the div horizontally */
+        padding-bottom: 220px;
+        padding-top: 50px;
+        font-size:16px;
+        font-style: italic;
+ 
+      }
+    }
+      @media  (min-width: 1024px){
+        .header1{
+            text-align: left;
+            padding-left: 15%;
+        }
+        .img1, .img2, .img3, .img4, .img5 {
+            width: 100%; /* Set the desired width */
+            height: auto;
+            margin: 0 auto; /* Center the div horizontally */
+            padding-left: 140px;
+            padding-bottom: 10px;
+          }
+          .Fstanza, .secstanza, .thirdstanza, .fourthstanza, .fifthstanza{
+  
+            width: 70%; /* Set the desired width */
+            height: 150px; /* Set the desired height */
+            padding: 10px; /* Add padding to create space inside the div */
+            margin: 0 auto; /* Center the div horizontally */
+            padding-bottom: 200px;
+            padding-top: 30px;
+            font-size:16px;
+            font-style: italic;
+           
+          }
+          @media  (min-width: 1440px){
+            .header1{
+                text-align: center;
+                padding-left: 1%;
+            }
+            
+            .img1, .img2, .img3, .img4, .img5 {
+                width: 100%; /* Set the desired width */
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin: 0 auto; /* Center the div horizontally */
+                
+              }
+              .Fstanza, .secstanza, .thirdstanza, .fourthstanza, .fifthstanza{
+
+             
+                width: 80%; /* Set the desired width */
+                height: 150px; /* Set the desired height */
+                padding: 10px; /* Add padding to create space inside the div */
+                margin: 0 auto; /* Center the div horizontally */
+                padding-bottom: 200px;
+                padding-top: 50px;
+                font-size:16px;
+                font-style: italic;
+         
+}
+      }
+    }
+      
+
+      
+  
+  
+  
